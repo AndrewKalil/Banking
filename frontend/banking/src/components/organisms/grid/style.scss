@@ -1,0 +1,35 @@
+@import "../../../App.scss";
+
+.grid_toolbar {
+  width: 100%;
+  height: 5rem;
+  @media (min-width: $md) {
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+    .buttons {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .search {
+    }
+  }
+}
+
+.grid_layout {
+  grid-template-rows: 10% 90%;
+
+  .grid_data_section {
+    display: grid;
+    grid-auto-rows: 4rem;
+    gap: 1rem;
+
+    &::-webkit-scrollbar {
+      display: none;
+      width: 0;
+    }
+  }
+}

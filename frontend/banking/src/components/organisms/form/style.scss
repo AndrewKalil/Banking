@@ -1,0 +1,11 @@
+@import "../../../App.scss";
+
+.md_properties {
+  display: grid;
+  grid-template-rows: 85% 15%;
+
+  @media (min-width: $md) {
+    width: 27rem;
+    height: 17rem;
+  }
+}

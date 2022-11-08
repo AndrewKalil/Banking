@@ -1,0 +1,14 @@
+.row-selected {
+  &::after {
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    // background-color: rgba(0, 157, 255);
+    border: 0.125rem solid rgb(106, 166, 226);
+    border-radius: 0.25rem;
+  }
+}

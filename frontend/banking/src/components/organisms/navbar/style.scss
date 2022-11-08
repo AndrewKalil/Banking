@@ -1,0 +1,17 @@
+@import "../../../App.scss";
+
+.navbar {
+  background-color: transparent;
+
+  .navbar_container {
+    .navbar_toolbar {
+    }
+  }
+}
+
+@media (min-width: $md) {
+  .navbar {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
